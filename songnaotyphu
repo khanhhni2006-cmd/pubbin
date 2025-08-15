@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sóng Não Tỷ Phú</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0; padding: 0;
+        background-color: #0a0a0a;
+        color: #f0f0f0;
+    }
+    h1, h2, h3 {
+        font-weight: bold;
+    }
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.ibb.co/VJg0shQ/brainwave-bg.jpg') center/cover no-repeat;
+        text-align: center;
+        padding: 80px 20px;
+    }
+    .hero img {
+        width: 250px;
+        animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+    }
+    .hero h1 {
+        font-size: 2.5em;
+        color: gold;
+    }
+    .cta {
+        background: gold;
+        color: black;
+        padding: 15px 30px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .section {
+        padding: 50px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+    .story-block {
+        margin-bottom: 40px;
+    }
+    .story-block img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    .proof img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    input, button {
+        padding: 12px;
+        font-size: 1em;
+        border-radius: 6px;
+        border: none;
+    }
+    input {
+        background-color: #1a1a1a;
+        color: white;
+    }
+    button {
+        background-color: gold;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .bank-info {
+        background-color: #111;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: #f0f0f0;
+    }
+    .bank-info strong {
+        color: gold;
+    }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+    <img src="https://i.ibb.co/6vMZmsk/mockup-brainwave.png" alt="Mockup Sóng Não">
+    <h1>Khai mở tiềm năng ẩn sâu với Sóng Não Theta</h1>
+    <a href="#payment" class="cta">Mua ngay – Nhận ưu đãi</a>
+</section>
+
+<!-- Story -->
+<section class="section">
+    <h2>Câu chuyện thành công</h2>
+
+    <div class="story-block">
+        <h3>1. Trước đây</h3>
+        <p>Minh – một nhân viên văn phòng bình thường, luôn cảm thấy áp lực và thiếu tập trung, thu nhập mãi dậm chân tại chỗ.</p>
+        <img src="https://i.ibb.co/wNWbZRt/stress.jpg" alt="Căng thẳng">
+    </div>
+
+    <div class="story-block">
+        <h3>2. Cú chạm</h3>
+        <p>Tình cờ Minh đọc được bài báo về <strong>sóng não theta</strong> – tần số não bộ giúp tăng sáng tạo và khả năng tập trung, được các doanh nhân thành đạt sử dụng.</p>
+        <img src="https://i.ibb.co/SQFJ5CT/research.jpg" alt="Nghiên cứu">
+    </div>
+
+    <div class="story-block">
+        <h3>3. Phát kiến</h3>
+        <p>Sóng não theta được chứng minh qua <em>nghiên cứu lâm sàng</em> là giúp cải thiện trí nhớ, giảm căng thẳng và kích hoạt tiềm năng tài chính.</p>
+        <img src="https://i.ibb.co/gZqSftx/brain-science.jpg" alt="Khoa học não bộ">
+    </div>
+
+    <div class="story-block">
+        <h3>4. Thử nghiệm nhỏ</h3>
+        <p>Minh nghe âm thanh sóng não 30 phút mỗi ngày trong một tuần – và nhận ra năng suất tăng vọt, ký được hợp đồng lớn đầu tiên.</p>
+        <img src="https://i.ibb.co/bFdxv0N/success.jpg" alt="Thành công">
+    </div>
+
+    <div class="story-block">
+        <h3>5. Chia sẻ + Ưu đãi</h3>
+        <p>Bạn cũng có thể trải nghiệm điều này hôm nay. <strong>Nhận ngay</strong> bộ quà tặng gồm:</p>
+        <ul>
+            <li>Kim tự tháp của Warren Buffet</li>
+            <li>7 thói quen “lười” của triệu phú</li>
+            <li>Biểu hiện tiền mặt nhanh chóng</li>
+            <li>500 câu chuyện thành công của sóng não tỷ phú</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Product -->
+<section class="section">
+    <h2>Sản phẩm Sóng Não Tỷ Phú</h2>
+    <p><strong>Giá:</strong> 499,000 VNĐ</p>
+    <ul>
+        <li>Kích hoạt sóng não theta giúp tăng sáng tạo</li>
+        <li>Cải thiện tập trung và trí nhớ</li>
+        <li>Thư giãn và giảm căng thẳng nhanh chóng</li>
+    </ul>
+</section>
+
+<!-- Proof -->
+<section class="section proof">
+    <h2>Bằng chứng khoa học</h2>
+    <p>Trích dẫn từ nghiên cứu của Đại học Harvard: “Sóng não theta có liên hệ chặt chẽ với trạng thái sáng tạo cao và khả năng giải quyết vấn đề đột phá.”</p>
+    <img src="https://i.ibb.co/4fgTjkT/science-proof.jpg" alt="Nghiên cứu">
+</section>
+
+<!-- Payment -->
+<section id="payment" class="section">
+    <h2>Thanh toán & Liên hệ</h2>
+    <form>
+        <input type="text" placeholder="Họ và tên" required>
+        <input type="tel" placeholder="Số điện thoại" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Xác nhận thanh toán</button>
+    </form>
+    <div class="bank-info">
+        <p><strong>Ngân hàng:</strong> MB Bank</p>
+        <p><strong>Chủ tài khoản:</strong> Ra Lan Khánh Ni</p>
+        <p><strong>Số tài khoản:</strong> 0919198615</p>
+        <p><strong>Số tiền:</strong> 499,000 VNĐ</p>
+    </div>
+</section>
+
+</body>
+</html>
